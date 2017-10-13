@@ -1,0 +1,43 @@
+﻿@model Long2shortWebClient.Models.GenerateShortURLViewModel
+
+@{
+    ViewData["Title"] = "GenerateShort";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>GenerateShort</h2>
+
+<div>
+    <h4>GenerateShortURLViewModel</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Status)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Status)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.UserDefineId)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.UserDefineId)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.ShortAddr)
+        </dt>
+        <dd>
+            <a href="@Html.DisplayFor(model => model.ShortAddr)">@Html.DisplayFor(model => model.ShortAddr)</a>
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.LongAddr)
+        </dt>
+        <dd>
+            <a href="@Html.DisplayFor(model => model.LongAddr)">@Html.DisplayFor(model => model.LongAddr)</a>
+        </dd>
+    </dl>
+</div>
+<div>
+    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+    <a href="/">Back to GenerateShortURL</a>
+</div>

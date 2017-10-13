@@ -1,0 +1,12 @@
+d:\Document\Visual Studio 2017\Projects\Long2shortWebClient\Long2shortWebClient
+--output-path=obj\Release\netcoreapp2.0\
+--application-name=Long2shortWebClient
+--content-root=d:\Document\Visual Studio 2017\Projects\Long2shortWebClient\Long2shortWebClient
+--file=d:\Document\Visual Studio 2017\Projects\Long2shortWebClient\Long2shortWebClient\Views\Home\GenerateShortURL.cshtml
+--file=d:\Document\Visual Studio 2017\Projects\Long2shortWebClient\Long2shortWebClient\Views\Home\Index.cshtml
+--file=d:\Document\Visual Studio 2017\Projects\Long2shortWebClient\Long2shortWebClient\Views\l\GetShortURL.cshtml
+--file=d:\Document\Visual Studio 2017\Projects\Long2shortWebClient\Long2shortWebClient\Views\Shared\Error.cshtml
+--file=d:\Document\Visual Studio 2017\Projects\Long2shortWebClient\Long2shortWebClient\Views\Shared\_Layout.cshtml
+--file=d:\Document\Visual Studio 2017\Projects\Long2shortWebClient\Long2shortWebClient\Views\Shared\_ValidationScriptsPartial.cshtml
+--file=d:\Document\Visual Studio 2017\Projects\Long2shortWebClient\Long2shortWebClient\Views\_ViewImports.cshtml
+--file=d:\Document\Visual Studio 2017\Projects\Long2shortWebClient\Long2shortWebClient\Views\_ViewStart.cshtml
