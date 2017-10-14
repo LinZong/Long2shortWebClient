@@ -1,14 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using Long2shortWebClient.Models;
-using Long2short;
 namespace Long2shortWebClient.Controllers
 {
-    
+
     public class HomeController : Controller
     {
         
@@ -22,7 +17,7 @@ namespace Long2shortWebClient.Controllers
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
-
+        
         public IActionResult GenerateShortURL()
         {
             return View();
