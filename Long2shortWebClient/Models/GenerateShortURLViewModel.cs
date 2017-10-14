@@ -1,5 +1,4 @@
-﻿using System;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 
 namespace Long2shortWebClient.Models
 {
@@ -13,6 +12,4 @@ namespace Long2shortWebClient.Models
         [Required(ErrorMessage ="Long URL should not be null")]
         public string LongAddr { get; set; }
     }
-
-    
 }
