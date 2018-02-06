@@ -41,13 +41,20 @@ namespace Long2shortWebClient
 
             app.UseMvc(routes =>
             {
+            routes.MapRoute(
+                "RedirectToURL",
+                "l/{s}",
+                new {controller = "Long2short",action = "Long",s = ""}
+                    );
+                routes.MapRoute(
+                "GetShortURL",
+                "get",
+                new { controller = "Long2short", action = "GetShortUrl" }
+                    );
                 routes.MapRoute(
                     name: "default",
-                    template: "{controller=Home}/{action=GenerateShortURL}/{id?}");
-                routes.MapRoute(
-                    "GetlongURL",
-                    "l/{shorturl}",
-                    new {controller = "l",action = "GetLongURL" });
+                    template: "{controller=Long2short}/{action=Index}"
+                    );
             });
         }
     }

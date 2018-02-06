@@ -12,3 +12,14 @@ d:\Document\Visual Studio 2017\Projects\Long2shortWebClient\Long2shortWebClient\
 d:\Document\Visual Studio 2017\Projects\Long2shortWebClient\Long2shortWebClient\bin\Debug\netcoreapp2.0\Long2short.pdb
 d:\Document\Visual Studio 2017\Projects\Long2shortWebClient\Long2shortWebClient\bin\Debug\netcoreapp2.0\Long2short.dll
 d:\Document\Visual Studio 2017\Projects\Long2shortWebClient\Long2shortWebClient\bin\Debug\netcoreapp2.0\Long2short.dll.config
+D:\Document\GitHub\Long2shortWebClient\Long2shortWebClient\bin\Debug\netcoreapp2.0\Long2shortWebClient.dll
+D:\Document\GitHub\Long2shortWebClient\Long2shortWebClient\bin\Debug\netcoreapp2.0\Long2shortWebClient.deps.json
+D:\Document\GitHub\Long2shortWebClient\Long2shortWebClient\bin\Debug\netcoreapp2.0\Long2shortWebClient.runtimeconfig.json
+D:\Document\GitHub\Long2shortWebClient\Long2shortWebClient\bin\Debug\netcoreapp2.0\Long2shortWebClient.runtimeconfig.dev.json
+D:\Document\GitHub\Long2shortWebClient\Long2shortWebClient\bin\Debug\netcoreapp2.0\Long2shortWebClient.pdb
+D:\Document\GitHub\Long2shortWebClient\Long2shortWebClient\obj\Debug\netcoreapp2.0\Long2shortWebClient.csproj.CoreCompileInputs.cache
+D:\Document\GitHub\Long2shortWebClient\Long2shortWebClient\obj\Debug\netcoreapp2.0\Long2shortWebClient.AssemblyInfoInputs.cache
+D:\Document\GitHub\Long2shortWebClient\Long2shortWebClient\obj\Debug\netcoreapp2.0\Long2shortWebClient.AssemblyInfo.cs
+D:\Document\GitHub\Long2shortWebClient\Long2shortWebClient\obj\Debug\netcoreapp2.0\Long2shortWebClient.dll
+D:\Document\GitHub\Long2shortWebClient\Long2shortWebClient\obj\Debug\netcoreapp2.0\Long2shortWebClient.pdb
+D:\Document\GitHub\Long2shortWebClient\Long2shortWebClient\obj\Debug\netcoreapp2.0\Long2shortWebClient.csprojResolveAssemblyReference.cache

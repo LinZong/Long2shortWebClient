@@ -1,0 +1,38 @@
+﻿@model Long2shortWebClient.Models.Long2shortViewModel
+
+@{
+    ViewData["Title"] = "GetShortURL";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<h2>GenerateShortURL</h2>
+
+<h4>GenerateShortURLViewModel</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Index" method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="uid" class="control-label"></label>
+                <input asp-for="uid" class="form-control" placeholder="输入一个正数(可选)"/>
+                <span asp-validation-for="uid" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="longid" class="control-label"></label>
+                <input asp-for="longid" class="form-control" placeholder="输入一串网址,不可空" required/>
+                <span asp-validation-for="longid" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-default" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="GenerateShortURL">Back to GenerateShortURL</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

@@ -5154,15 +5154,6 @@
         "runtime": {
           "lib/netstandard1.3/Microsoft.WindowsAzure.Storage.dll": {}
         }
-      },
-      "Long2short/1.0.0": {
-        "type": "project",
-        "compile": {
-          "bin/placeholder/Long2short.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Long2short.dll": {}
-        }
       }
     }
   },
@@ -13417,16 +13408,10 @@
         "windowsazure.storage.8.1.4.nupkg.sha512",
         "windowsazure.storage.nuspec"
       ]
-    },
-    "Long2short/1.0.0": {
-      "type": "project",
-      "path": "../../Long2short/Long2short/Long2short.csproj",
-      "msbuildProject": "../../Long2short/Long2short/Long2short.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
-      "Long2short >= 1.0.0",
       "Microsoft.AspNetCore.All >= 2.0.0",
       "Microsoft.NETCore.App >= 2.0.0",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 2.0.0",
@@ -13444,11 +13429,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "d:\\Document\\Visual Studio 2017\\Projects\\Long2shortWebClient\\Long2shortWebClient\\Long2shortWebClient.csproj",
+      "projectUniqueName": "D:\\Document\\GitHub\\Long2shortWebClient\\Long2shortWebClient\\Long2shortWebClient.csproj",
       "projectName": "Long2shortWebClient",
-      "projectPath": "d:\\Document\\Visual Studio 2017\\Projects\\Long2shortWebClient\\Long2shortWebClient\\Long2shortWebClient.csproj",
+      "projectPath": "D:\\Document\\GitHub\\Long2shortWebClient\\Long2shortWebClient\\Long2shortWebClient.csproj",
       "packagesPath": "C:\\Users\\Nemesiss\\.nuget\\packages\\",
-      "outputPath": "d:\\Document\\Visual Studio 2017\\Projects\\Long2shortWebClient\\Long2shortWebClient\\obj\\",
+      "outputPath": "D:\\Document\\GitHub\\Long2shortWebClient\\Long2shortWebClient\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -13466,11 +13451,7 @@
       },
       "frameworks": {
         "netcoreapp2.0": {
-          "projectReferences": {
-            "d:\\Document\\Visual Studio 2017\\Projects\\Long2short\\Long2short\\Long2short.csproj": {
-              "projectPath": "d:\\Document\\Visual Studio 2017\\Projects\\Long2short\\Long2short\\Long2short.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
@@ -13482,26 +13463,26 @@
     "frameworks": {
       "netcoreapp2.0": {
         "dependencies": {
-          "MongoDB.Driver": {
+          "Microsoft.AspNetCore.All": {
             "target": "Package",
-            "version": "2.4.4"
-          },
-          "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
-            "target": "Package",
-            "version": "2.0.0"
+            "version": "[2.0.0, )"
           },
           "Microsoft.NETCore.App": {
             "target": "Package",
-            "version": "2.0.0",
+            "version": "[2.0.0, )",
             "autoReferenced": true
           },
-          "Microsoft.AspNetCore.All": {
+          "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
             "target": "Package",
-            "version": "2.0.0"
+            "version": "[2.0.0, )"
+          },
+          "MongoDB.Driver": {
+            "target": "Package",
+            "version": "[2.4.4, )"
           },
           "Newtonsoft.Json": {
             "target": "Package",
-            "version": "10.0.3"
+            "version": "[10.0.3, )"
           }
         },
         "imports": [
